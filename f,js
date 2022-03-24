@@ -1,0 +1,23 @@
+var Neo = prompt("What is your name?");
+document.getElementById("Rick").innerHTML = Neo;
+
+var Banna = prompt(
+  "Please enter the secret phrase. I know... I know.. you have no idea... It's ok, just guess!"
+);
+document.getElementById("Neo").innerHTML = Neo;
+
+var Banna = prompt(
+  "Another popup... I know I hate these too!! Although, your secret phrase was not nice enough.. please enter your favorite thing"
+);
+document.getElementById("quack").innerHTML = quack + "!!";
+
+var questionFour = prompt(
+  "Seriously .. too much I know this is not fun anymore. Sorry.. but if you could please just guess and enter the correct amount of explamation points.. we will end this madness. "
+);
+document.getElementById("quack").innerHTML = questionFour;
+
+var questionFive = prompt("What is your favorite food");
+document.getElementById("mango").innerHTML = questionFive;
+
+var questionSix = prompt("If you saw a spooky would you run or eat it?");
+document.getElementById("walk").innerHTML = questionSix;
